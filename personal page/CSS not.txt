@@ -1,0 +1,7 @@
+li + em(li elemanından sonra gördüğün em varsa onu değiştirir)
+li em(li'nin alt kümesi olan her emi değiştirir)
+li.class(li içerisinde aynı adlı class elemanı varsa o değişir)
+li > element (li'nin direkt childı olan elemanı etkiler)
+
+priority:
+inline>specifier(# tagi)>class>element
